@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RMS Login Page</title>
+    <link rel="stylesheet" href="loginStyles.css">
+    <link rel="icon" href="RMS.svg" type="image/svg+xml">
+    <script src="loginScript.js" defer></script>
+</head>
+<body>
+<img src="RMS.svg" alt="RMS Official Logo" height="200">
+<h1>Receipt Management System</h1>
+
+<div id="login-form">
+    <h2>Login</h2>
+    <label for="login-username">Username or Email:</label>
+    <input type="text" id="login-username">
+
+    <label for="login-password">Password:</label>
+    <input type="password" id="login-password">
+
+    <button id="login-button">Login</button>
+    <p>Don't have an account? <a href="#" id="show-register">Create one</a></p>
+</div>
+
+<div id="register-form" style="display: none;">
+    <h2>Create Account</h2>
+    <label for="register-username">Username or Email:</label>
+    <input type="text" id="register-username">
+
+    <label for="register-password">Password:</label>
+    <input type="password" id="register-password">
+
+    <button id="register-button">Register</button>
+    <p>Already have an account? <a href="#" id="show-login">Login</a></p>
+</div>
+
+</body>
+</html>
